@@ -1,0 +1,53 @@
+﻿<!doctype html>
+<html lang="es">
+<head>
+	<!-- Informació Meta -->
+	<meta charset="utf-8"/>
+	<meta name="description" content="Lorem Ipsum">
+	<meta name="keywords" content="Lorem, Ipsum">
+	<meta name="author" content="Lorem Ipsum">
+	
+	<!-- Enllaç a l'arxiu CSS Extern -->
+	<link rel=stylesheet href="css/style.css" type="text/css"/>
+
+	<!-- favicon -->
+	<link href="img/euro.png" rel="icon" type="image/x-icon" />
+
+	<!-- Títol de la pàgina -->
+	<title>Convertidor divises</title>
+</head>
+<body>
+	<div id="fons">
+		<header><h1>Conversor de divises</h1></header>
+		<div id="convertidor">
+			<div id="pais">
+				<select name="moneda" id="divisa1" onchange="conversor1()">
+					<option value="USD" selected="selected">United States Dollar|USD</option>
+					<option value="EUR" >Euro|EUR</option>
+					<option value="JPY" >Japanese Yen|JPY</option>
+					<option value="GBP" >British Pound Sterling|GBP</option>
+					<option value="CNY" >Chinese Yuan|CNY</option>
+					<option value="CHF" >Swiss Franc|CHF</option>
+				</select>
+				<button id="buto" onclick="canvi()">&lt;&gt;</button>
+				<select name="moneda" id="divisa2" onchange="conversor2()">
+					<option value="USD" >United States Dollar|USD</option>
+					<option value="EUR" selected="selected">Euro|EUR</option>
+					<option value="JPY" >Japanese Yen|JPY</option>
+					<option value="GBP" >British Pound Sterling|GBP</option>
+					<option value="CNY" >Chinese Yuan|CNY</option>
+					<option value="CHF" >Swiss Franc|CHF</option>
+				</select>
+			</div>
+			<div id="quantitat">
+					<input type="number" name="Entrada" id="importe" onkeyup="conversor1()">
+					<input type="number" name="Sortida" id="imports" onkeyup="conversor2()">
+			</div>
+		</div>
+	</div>
+</body>
+	<!--Jquery-->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<!-- Enllaç a Javascript Extern -->
+	<script  type="text/javascript" src="js/javascript.js"></script>
+</html>

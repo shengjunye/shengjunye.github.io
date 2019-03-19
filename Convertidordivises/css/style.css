@@ -1,0 +1,57 @@
+ /*{border: 1px white solid;}*/
+body{
+    background-image: url("../img/europebackground.jpg");
+    margin-top: 9%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%; 
+}
+
+
+body header{
+    
+    margin-top: 7%;
+    display: flex;
+    justify-content: center;
+}
+#pais{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+#buto{
+    margin-left: 7px;
+    margin-right: 7px;
+}
+#importe{
+    margin-right: 37px;
+}
+#quantitat{
+    display: flex;
+    justify-content: center;
+}
+/*Media Queries*/
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+}
